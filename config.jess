@@ -1,5 +1,12 @@
+@let value: red;
 @let config {
+  global {
+    borderRadius: 3px;
+  }
+  buttons {
+    borderRadius: $config.global.borderRadius;
+  }
   colors {
-    value: red;
+    value: $value;
   }
 }

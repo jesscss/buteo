@@ -1,6 +1,9 @@
-@import { config as defaultConfig } from './config.jess';
+@import getConfig from './config.jess';
 @import hello from './hello.jess';
 
-@let config: $defaultConfig;
+@let settings: $null;
+@let config: $getConfig({
+  config: settings
+}).config;
 
 @include hello(${config});

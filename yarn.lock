@@ -397,10 +397,10 @@ is-reference@^1.2.1:
   dependencies:
     "@types/estree" "*"
 
-jess@^1.0.6-alpha.0:
-  version "1.0.6-alpha.0"
-  resolved "https://registry.yarnpkg.com/jess/-/jess-1.0.6-alpha.0.tgz#8f39b6cfbf27f835ddadca8f3ef0f64e99aba7ea"
-  integrity sha512-tz14onx8DY/hq7dmpSV98a6P0UnB0xQ3jJYc4bK2lbtwdJ7xs4qNWETOwlEgthLNv99hCcA7lCUFhHsbkYpz8Q==
+jess@^1.0.7-alpha.1:
+  version "1.0.7-alpha.1"
+  resolved "https://registry.yarnpkg.com/jess/-/jess-1.0.7-alpha.1.tgz#4403273c1596a8f3cdab286c7eb86c7fb226bc1c"
+  integrity sha512-GSiostN3fXqhPo4U94KHCFqDcDIvbMgDgp2pQmN6jwmGCqWaJ5oMivo4lf005vhnudeFdoOTZtUdl9aJ7zlqtQ==
   dependencies:
     "@jesscss/parser" "^1.0.6-alpha.0"
     "@rollup/plugin-commonjs" "^17.0.0"
@@ -411,6 +411,7 @@ jess@^1.0.6-alpha.0:
     combinate "^1.1.2"
     cosmiconfig "^7.0.0"
     lodash "^4.17.20"
+    micro-memoize "^4.0.9"
     rollup "^2.36.2"
     yargs "^16.2.0"
 
@@ -440,6 +441,11 @@ magic-string@^0.25.7:
   integrity sha512-4CrMT5DOHTDk4HYDlzmwu4FVCcIYI8gauveasrdCu2IKIFOJ3f0v/8MDGJCDL9oD2ppz/Av1b0Nj345H9M+XIA==
   dependencies:
     sourcemap-codec "^1.4.4"
+
+micro-memoize@^4.0.9:
+  version "4.0.9"
+  resolved "https://registry.yarnpkg.com/micro-memoize/-/micro-memoize-4.0.9.tgz#b44a38c9dffbee1cefc2fd139bc8947952268b62"
+  integrity sha512-Z2uZi/IUMGQDCXASdujXRqrXXEwSY0XffUrAOllhqzQI3wpUyZbiZTiE2JuYC0HSG2G7DbCS5jZmsEKEGZuemg==
 
 minimatch@^3.0.4:
   version "3.0.4"

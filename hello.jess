@@ -4,4 +4,5 @@
 
 .hello {
   foo: $config.colors.value;
+  border-radius: $config.buttons.borderRadius;
 }

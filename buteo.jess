@@ -3,8 +3,10 @@
 
 @let settings {}
 
-@let config: $getConfig({
-  config: settings
-}).config;
+& {
+  @let config: $getConfig({
+    config: settings
+  }).config;
 
-@include hello(${config});
+  @include hello(${config});
+}

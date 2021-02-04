@@ -397,10 +397,10 @@ is-reference@^1.2.1:
   dependencies:
     "@types/estree" "*"
 
-jess@^1.0.7-alpha.1:
-  version "1.0.7-alpha.1"
-  resolved "https://registry.yarnpkg.com/jess/-/jess-1.0.7-alpha.1.tgz#4403273c1596a8f3cdab286c7eb86c7fb226bc1c"
-  integrity sha512-GSiostN3fXqhPo4U94KHCFqDcDIvbMgDgp2pQmN6jwmGCqWaJ5oMivo4lf005vhnudeFdoOTZtUdl9aJ7zlqtQ==
+jess@^1.0.7-alpha.2:
+  version "1.0.7-alpha.2"
+  resolved "https://registry.yarnpkg.com/jess/-/jess-1.0.7-alpha.2.tgz#b3f7600de80c08ce50c44ef01e8ff4c7149dad79"
+  integrity sha512-qOSpxbBMSx4FfRgkmnD/+yBY3IKvLHINt1TlgZ0LksoAo8U6a1Xs+WAu9SR/xJ8HIY2qg+s2JvaMnQNX8e2Ivg==
   dependencies:
     "@jesscss/parser" "^1.0.6-alpha.0"
     "@rollup/plugin-commonjs" "^17.0.0"

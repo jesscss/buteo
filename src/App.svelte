@@ -4,7 +4,7 @@
 
 <main>
 	<h1>Buteo</h1>
-	<p></p>
+	<p>A <a href="https://jesscss.github.io/" target="_blank">Jess</a> library</p>
 </main>
 
 <style>

@@ -1,4 +1,4 @@
  .hello {
-  foo: red;
-  border-radius: 3px;
+  foo: var(--v51fb3fa1-0, red);
+  border-radius: var(--v51fb3fa1-1, 3px);
 }

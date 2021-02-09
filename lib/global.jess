@@ -1,0 +1,12 @@
+@import { config as defaultConfig } from './config.jess';
+@let config: $defaultConfig;
+
+html {
+  box-sizing: border-box;
+}
+
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}

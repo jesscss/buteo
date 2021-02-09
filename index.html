@@ -7,8 +7,13 @@
 	<title>Buteo</title>
 
 	<link rel='icon' type='image/png' href='favicon.png'>
+	<link rel='stylesheet' href='dist/buteo.css'>
 	<link rel='stylesheet' href='build/bundle.css'>
 
+	<script type="module">
+		import styles from './dist/buteo.js'
+		const foo = styles({})
+	</script>
 	<script defer src='build/bundle.js'></script>
 </head>
 

@@ -1,13 +1,18 @@
 html {
   box-sizing: border-box;
 }
-.hello {
-  foo: var(--v51fb3fa1-0, red);
-  border-radius: var(--v51fb3fa1-1, 3px);
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 html,
 body {
   position: relative;
   width: 100%;
   height: 100%;
+}
+.hello {
+  foo: var(--v51fb3fa1-0, red);
+  border-radius: var(--v51fb3fa1-1, 3px);
 }

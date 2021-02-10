@@ -1,0 +1,26 @@
+@import { config as defaultConfig } from './config.jess';
+@import { contrast, lighten } from '@jesscss/fns';
+
+@let config: $defaultConfig;
+
+& {
+  @let buttons: $config.buttons;
+  @let colors: $config.colors;
+  .button {
+    @let primary: $colors.primary;
+    border-radius: $buttons.borderRadius;
+    background: $primary;
+    color: contrast($primary);
+    border-color: lighten($primary, 10%);
+    &:hover {
+      @let color: #0000FF;
+      background: $color;
+      color: contrast($color);
+    }
+    &:not(:disabled):active {
+      @let color: #0000AA;
+      background: $color;
+      color: contrast($color);
+    }
+  }
+}

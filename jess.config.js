@@ -1,5 +1,6 @@
 module.exports = {
   options: {
-    dynamic: true
+    // not working yet with functions
+    // dynamic: true
   }
 }

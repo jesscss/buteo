@@ -3,6 +3,6 @@
 @let config: $defaultConfig;
 
 .hello {
-  foo: $config.colors.value;
+  foo: $config.colors.primary;
   border-radius: $config.buttons.borderRadius;
 }

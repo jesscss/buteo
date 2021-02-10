@@ -60,6 +60,14 @@
     chevrotain "^7.1.0"
     xregexp "^4.2.4"
 
+"@jesscss/fns@^1.0.8-alpha.6":
+  version "1.0.8-alpha.6"
+  resolved "https://registry.yarnpkg.com/@jesscss/fns/-/fns-1.0.8-alpha.6.tgz#eb9211d3d148403b87e22b0f7813c9814b49886d"
+  integrity sha512-wjFxAo6t4jFKsDSWIv+k9UnDHMkd3rSmpQA51cEqFepAMcCmWNhr8co6BJnPY6Iu99OBr86CL7Pc49eCu9EQGw==
+  dependencies:
+    jess "^1.0.8-alpha.6"
+    lodash "^4.17.20"
+
 "@jesscss/parser@^1.0.8-alpha.6":
   version "1.0.8-alpha.6"
   resolved "https://registry.yarnpkg.com/@jesscss/parser/-/parser-1.0.8-alpha.6.tgz#409dadc1a8444ec636b8f1c175ff4da4f80c3a87"

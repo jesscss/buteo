@@ -5,6 +5,8 @@
 <main>
 	<h1>Buteo</h1>
 	<p>A <a href="https://jesscss.github.io/" target="_blank">Jess</a> library</p>
+
+	<button class="button">A button</button>
 </main>
 
 <style>

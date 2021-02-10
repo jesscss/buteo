@@ -1,0 +1,17 @@
+@import getConfig from './config.jess';
+@import global from './global.jess';
+
+@import buttons from './buttons.jess';
+@import hello from './hello.jess';
+
+@let settings {}
+
+& {
+  @let config: $getConfig({
+    config: settings
+  }).config;
+
+  @include global(${config});
+  @include buttons(${config});
+  @include hello(${config});
+}
